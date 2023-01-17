@@ -1,0 +1,9 @@
+app:
+  name: myapp
+pod:
+  image: nginx
+service:
+  name: myservice
+  port: 80
+  protocol: TCP
+  type: LoadBalancer
